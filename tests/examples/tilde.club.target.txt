@@ -1,0 +1,20 @@
+welcome to
+   __  _ __    __           __      __
+  / /_(_) /___/ /__   _____/ /_  __/ /_
+ / __/ / / __  / _ \ / ___/ / / / / __ \
+/ /_/ / / /_/ /  __// /__/ / /_/ / /_/ /
+\__/_/_/\__,_/\___(_)___/_/\__,_/_.___/
+
+
+tilde.club is not a social network; it is one tiny,
+totally standard Unix computer that people respectfully
+use together in their shared quest to build awesome web pages.
+
+visit us on the web or gopher for more info
+
+users currently logged in are:
+user1
+user2
+user3
+user4
+user4

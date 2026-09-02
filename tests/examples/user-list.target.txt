@@ -1,0 +1,5 @@
+Login                Name                 Login Time
+=> /finger/davep davep                Dave Pearson         Tue Sep 01 13:11 UTC
+=> /finger/davep davep                                     Tue Sep 01 13:11 UTC
+
+Plain line of output.

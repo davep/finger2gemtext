@@ -1,0 +1,37 @@
+Weather via finger, graph.no
+
+* Code: https://github.com/ways/fingr/
+* https://nominatim.org/ is used for location lookup.
+* https://www.yr.no/ is used for weather data.
+* Hosted by Copyleft Solutions AS: https://copyleft.no/
+* Contact: finger@falkp.no
+
+Usage:
+    finger oslo@graph.no
+
+Using coordinates:
+    finger 59.1,10.1@graph.no
+
+Using imperial units:
+    finger ^oslo@graph.no
+
+Using the Beaufort wind scale:
+    finger £oslo@graph.no
+
+Ask for wider output, longer forecast (~<screen width>):
+    finger oslo~200@graph.no
+
+Specify another location when names conflict:
+    finger "oslo, united states"@graph.no
+
+Display "wind chill" / "feels like" temperature:
+    finger ¤oslo@graph.no
+
+No graph, just a one-line forecast (needs improvement):
+    finger o:oslo@graph.no
+
+Hammering will get you blacklisted. Remember the data doesn't change more than once an hour.
+
+News:
+* Launched in 2012
+* 2021-05: total rewrite due to API changes. Much better location searching, proper hour-by-hour for most of the world.

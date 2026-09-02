@@ -1,0 +1,17 @@
+  ____             _ _                 _           _
+ / __ \ _ _ ___ __| | |_ ___ _ _ _ __ (_)_ _  __ _| |  ___ _ _ __ _
+/ / _` | '_/ -_) _` |  _/ -_) '_| '  \| | ' \/ _` | |_/ _ \ '_/ _` |
+\ \__,_|_| \___\__,_|\__\___|_| |_|_|_|_|_||_\__,_|_(_)___/_| \__, |
+ \____/                                                       |___/
+
+Welcome to the @redterminal.org finger service.
+
+11:34AM  up 12 days,  5:11, 0 users, load averages: 0.08, 0.18, 0.17
+============================================================
+
+<== Available Fingers ==>
+
+fab      fab's contact and /now page
+gemlog   Get latest gemlog post
+phlog    Get latest gopher phlog post
+weather  Current weather at fab's place
