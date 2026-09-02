@@ -11,6 +11,10 @@ _USER_LIST_HEADER: Final[Pattern[str]] = compile(r"^Login\s+Name\s+Login Time\s*
 _USER_ENTRY: Final[Pattern[str]] = compile(r"^(?P<username>\S+)\s{2,}.*$")
 """Regular expression to match a user entry in Finger output."""
 
+##############################################################################
+_PEEKABLE_LINES: Final[int] = 10
+"""Number of lines to peek at when checking for a user list."""
+
 
 ##############################################################################
 def looks_like_user_list(finger_content: str) -> bool:
@@ -25,8 +29,7 @@ def looks_like_user_list(finger_content: str) -> bool:
     for line_number, line in enumerate(finger_content.splitlines()):
         if _USER_LIST_HEADER.match(line):
             return True
-        # If we're a good few lines in and found nothing; might as well bail.
-        if line_number > 10:
+        if line_number > _PEEKABLE_LINES:
             break
     return False
 
