@@ -31,7 +31,6 @@ classifiers = [
     "Programming Language :: Python :: 3.14",
     "Topic :: Software Development :: Libraries",
     "Topic :: Text Processing :: Filters",
-    "Topic :: Text Processing :: Markup :: HTML",
     "Topic :: Text Processing :: Markup",
     "Topic :: Text Processing",
     "Topic :: Utilities",
