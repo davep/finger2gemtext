@@ -54,7 +54,7 @@ class UserListFilter(FingerFilter):
                 converting = True
                 continue
             if converting and (user := _USER_ENTRY.match(line)) is not None:
-                gather(f"=> /finger/{user.group('username')} {line}")
+                gather(f"=> {user.group('username')} {line}")
                 found_users = True
             else:
                 gather(line)

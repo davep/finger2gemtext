@@ -60,7 +60,7 @@ class AvailableServicesFilter(FingerFilter):
                 converting = True
                 continue
             if converting and (service := _SERVICE.match(line)) is not None:
-                gather(f"=> /finger/{service['name']} {line}")
+                gather(f"=> {service['name']} {line}")
                 found_services = True
             else:
                 gather(line)
