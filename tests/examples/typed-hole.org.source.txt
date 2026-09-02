@@ -1,0 +1,14 @@
+Welcome to the Typed Hole
+Uptime:  12:46:42 up 248 days, 20:49,  0 user,  load average: 0.21, 0.22, 0.35
+Users currently logged in: probably julien
+
+Available fingers:
+
+username:               get user infos
+feed:                   get my latest toots
+lobsters:               get lobste.rs hottest stories
+weather:                get typed-hole.org current weather
+temp:                   get typed-hole.org current CPU temperature
+cyoa:                   finger your own adventure
+textfile:               read a random textfile from textfiles.com
+smog:                   read SMOG e-zine issues

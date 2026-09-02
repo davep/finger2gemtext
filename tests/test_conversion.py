@@ -80,6 +80,7 @@ def example(name: str) -> tuple[str, str]:
         example("redterminal.org"),
         example("user-list"),
         example("tilde.club"),
+        example("typed-hole.org"),
     ],
 )
 def test_conversion(source: str, target: str) -> None:

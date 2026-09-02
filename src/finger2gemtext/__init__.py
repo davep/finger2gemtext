@@ -17,10 +17,12 @@ __licence__ = "MIT"
 ##############################################################################
 # Local imports.
 from .convert import finger_to_gemtext
+from .finger_filter import FingerFilter
+from .user_lists import UserListFilter
 
 ##############################################################################
 # Exports.
-__all__ = ["finger_to_gemtext"]
+__all__ = ["finger_to_gemtext", "FingerFilter", "UserListFilter"]
 
 
 ### __init__.py ends here

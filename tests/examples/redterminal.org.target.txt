@@ -11,7 +11,7 @@ Welcome to the @redterminal.org finger service.
 
 <== Available Fingers ==>
 
-fab      fab's contact and /now page
-gemlog   Get latest gemlog post
-phlog    Get latest gopher phlog post
-weather  Current weather at fab's place
+=> /finger/fab fab      fab's contact and /now page
+=> /finger/gemlog gemlog   Get latest gemlog post
+=> /finger/phlog phlog    Get latest gopher phlog post
+=> /finger/weather weather  Current weather at fab's place
