@@ -1,6 +1,6 @@
 [project]
 name = "finger2gemtext"
-version = "0.0.3"
+version = "0.1.0"
 description = "A simple library for converting finger output to Gemtext"
 readme = "README.md"
 authors = [

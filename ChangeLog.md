@@ -1,5 +1,11 @@
 # finger2gemtext ChangeLog
 
+## v0.1.0
+
+**Released: 2026-09-02**
+
+- Initial release of the library.
+
 ## v0.0.1
 
 **Released: 2026-09-02**
