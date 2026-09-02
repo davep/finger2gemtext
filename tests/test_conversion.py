@@ -81,6 +81,7 @@ def example(name: str) -> tuple[str, str]:
         example("user-list"),
         example("tilde.club"),
         example("typed-hole.org"),
+        example("not-available-services"),
     ],
 )
 def test_conversion(source: str, target: str) -> None:

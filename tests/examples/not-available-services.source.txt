@@ -1,0 +1,6 @@
+Despite available fingers being mentioned these should not be converted.
+
+fab      fab's contact and /now page
+gemlog   Get latest gemlog post
+phlog    Get latest gopher phlog post
+weather  Current weather at fab's place

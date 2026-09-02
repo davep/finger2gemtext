@@ -10,7 +10,7 @@ from typing import Final
 from .finger_filter import FingerFilter
 
 ##############################################################################
-_TELL: Final[str] = "available fingers"
+_TELL: Final[Pattern[str]] = compile("^[^a-zA-Z]*available fingers[^a-zA-Z]*$")
 """String to look for in the Finger content to identify available services responses."""
 _SERVICE: Final[Pattern[str]] = compile(r"^(?P<name>\S+?):?\s{2,}.*$")
 
@@ -38,7 +38,7 @@ class AvailableServicesFilter(FingerFilter):
                 [`False`][False] otherwise.
         """
         return any(
-            _TELL in line.lower() for line in self.peekable_lines(finger_content)
+            _TELL.match(line.lower()) for line in self.peekable_lines(finger_content)
         )
 
     def to_gemtext(self, finger_content: str) -> str:
@@ -55,7 +55,7 @@ class AvailableServicesFilter(FingerFilter):
         converting = False
         found_services = False
         for line in finger_content.splitlines():
-            if _TELL in line.lower():
+            if _TELL.match(line.lower()):
                 gather(line)
                 converting = True
                 continue
