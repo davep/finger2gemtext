@@ -37,6 +37,7 @@ class FingerFilter(ABC):
             True if the filter can likely convert the content; False otherwise.
         """
 
+    @abstractmethod
     def to_gemtext(self, finger_content: str) -> str:
         """Convert the given finger content to Gemtext.
 
@@ -46,7 +47,6 @@ class FingerFilter(ABC):
         Returns:
             The converted Gemtext content.
         """
-        return finger_content
 
 
 ### finger_filter.py ends here
