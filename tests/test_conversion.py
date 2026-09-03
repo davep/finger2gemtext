@@ -30,32 +30,6 @@ def _example(source: str, example_type: str) -> str:
 
 
 ##############################################################################
-def source(source: str) -> str:
-    """Get the source data for a test.
-
-    Args:
-        source: The name of the source file (sans extension).
-
-    Returns:
-        The contents of the source file.
-    """
-    return _example(source, "source")
-
-
-##############################################################################
-def target(target: str) -> str:
-    """Get the target data for a test.
-
-    Args:
-        target: The name of the target file (sans extension).
-
-    Returns:
-        The contents of the target file.
-    """
-    return _example(target, "target")
-
-
-##############################################################################
 def example(name: str) -> tuple[str, str]:
     """Get the source and target data for a test.
 
@@ -65,7 +39,7 @@ def example(name: str) -> tuple[str, str]:
     Returns:
         A tuple containing the contents of the source and target files.
     """
-    return source(name), target(name)
+    return _example(name, "source"), _example(name, "target")
 
 
 ##############################################################################
